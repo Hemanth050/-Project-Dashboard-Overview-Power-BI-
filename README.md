@@ -1,90 +1,64 @@
 ![image url](https://github.com/Hemanth050/-Project-Dashboard-Overview-Power-BI-/blob/79871f877d1d8e37043055a4da19f6ae4f05195f/Q10.png)
-🖥️ Project Dashboard Overview (Power BI)
-This project complements SQL-based analysis with a dynamic and interactive Power BI Dashboard to visualize department-wise budget allocations, employee information, and project funding insights.
 
-📁 Tools & Technologies Used
-SQL (PostgreSQL style) for data extraction and transformation
+📊 Data Analysis Themes
+This section of the dashboard focuses on workforce analytics, providing deep insight into employees and company performance using Power BI visuals and slicers.
 
-Power BI for dashboard visualization and interactivity
+1️⃣ How many people are there in each department?
+Visualization: Bar chart or clustered column chart
 
-Excel/CSV for data formatting and initial preprocessing
+Insight: Displays the headcount per department to identify size and workforce distribution across functional areas.
 
-📊 Dashboard Features
-🎯 Employee Overview Panel
-Displays detailed profiles: Photo, Name, Role, Department, Compensation
+2️⃣ Gender distribution by department
+Visualization: 100% stacked bar chart or side-by-side column chart
 
-Includes slicer to filter by Employee ID
+Insight: Understand gender diversity within each department, useful for HR and DEI reporting.
 
-🧩 Project Distribution
-Dual Donut Charts
+3️⃣ Age spread of our staff (histogram)
+Visualization: Histogram using custom bins (e.g., 20–30, 30–40, etc.)
 
-Capital Allocation across project goals
+Insight: Reveals the overall age distribution in the organization, indicating generational trends or gaps.
 
-Project Budget Split by department and amount
+4️⃣ Min / Max / Average salary in each department
+Visualization: Table with conditional formatting or line & clustered column chart
 
-📋 Budget & Department Matrix
-Tabular view showing:
+Insight: Highlights compensation trends within departments; useful for detecting salary outliers or gaps.
 
-Departmental goals
+5️⃣ Top earners in each country
+Visualization: Table sorted by salary with country slicer
 
-Project + salary costs
+Insight: Identify the highest-paid employees per country for budget planning or regional benchmarking.
 
-2-year budget vs. capital assigned
+6️⃣ Performance Spread (sort by column)
+Visualization: Matrix or sortable table showing performance scores
 
-Includes conditional formatting for quick visual comparisons
+Insight: Helps identify high and low performers across the organization or within specific departments.
 
-📊 Charts & Visualizations
-Bar Chart: Project Budgets across initiatives
-(e.g., Product Launch, App Development, Website Overhaul)
+7️⃣ Company growth trend
+Visualization: Line chart showing employee headcount over time
 
-Departmental Budget Analysis:
+Insight: Visualizes growth trajectory — useful for strategic hiring and forecasting.
 
-Compare funding across departments (Sales, Marketing, Engineering, etc.)
+8️⃣ Employee Filter (by starting letter)
+Feature: Text slicer or dropdown with initial alphabets
 
-📌 Key Performance Indicators (KPIs)
-Metric	Value
-Total Capital	₹ 1.288M
-Total Project Budget	₹ 570K
-Highest Funded Dept.	Sales (₹150K)
-Top Capital Allocation	Engineering (₹770K)
+Insight: Allows users to filter and search employees alphabetically for quick lookup or audits.
 
-🔍 Data Analysis Themes
-Department Size
+9️⃣ Performance vs. Salary – is there any relationship?
+Visualization: Scatter plot with performance on X-axis and salary on Y-axis
 
-Number of employees in each department
+Insight: Reveals correlation (if any) between compensation and performance, supporting fair pay analysis.
 
-Gender Distribution
+🔟 India vs. New Zealand – quick scorecard
+Visualization: Card visuals or side-by-side KPI scorecards
 
-Gender breakdown by department
+Metrics Compared:
 
-Age Distribution
+Headcount
 
-Histogram showing age spread of staff
+Average salary
 
-Salary Analysis
+Average performance
 
-Min, Max, and Average salary by department
+Gender ratio
 
-Top Earners
-
-Highest-paid employees per country
-
-Performance Spread
-
-Performance scores sorted to analyze distribution
-
-Growth Trend
-
-Company-wide headcount trend over time
-
-Employee Name Filter
-
-Search/filter by first letter of employee names
-
-Performance vs. Salary Correlation
-
-Visual to explore relationship between salary and performance
-
-Country Comparison Scorecard
-
-Key metrics compared between India and New Zealand
+Insight: Fast comparative overview of key metrics between the two countries for global HR strategy.
