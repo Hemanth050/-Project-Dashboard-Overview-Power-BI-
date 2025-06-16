@@ -1,3 +1,4 @@
+![image url](https://github.com/Hemanth050/-Project-Dashboard-Overview-Power-BI-/blob/79871f877d1d8e37043055a4da19f6ae4f05195f/Q10.png)
 🖥️ Project Dashboard Overview (Power BI)
 This project complements SQL-based analysis with a dynamic and interactive Power BI Dashboard to visualize department-wise budget allocations, employee information, and project funding insights.
 
